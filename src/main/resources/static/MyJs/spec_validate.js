@@ -23,7 +23,9 @@
                     $("#specCodeError").html("*<b>Code</b> must be 4-12 chars only")
                     $("#specCodeError").css('color','red');
                     specCodeError = false;
-                }else{
+                }
+                //ajax validation code
+                else{
                 $.ajax({
                      url:'checkCode',
                      data: {"code": val},

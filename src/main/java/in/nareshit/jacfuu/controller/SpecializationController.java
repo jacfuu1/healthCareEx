@@ -91,6 +91,8 @@ public class SpecializationController {
 	 attributes.addAttribute("message", "Record("+specialization.getId()+") is updated");
 	 return"redirect:all";
  }
+ 
+ //ajax validation code
     /**
 	 * 7. Read code and check with service
 	 *    Return message back to UI 

@@ -45,7 +45,7 @@ public class SpecializationServiceImpl implements ISpecializationService {
 	public void updateSpecialization(Specialization spec) {
 		repo.save(spec);
 	}
-
+    // Ajax validationcode
 	@Override
 	public boolean isSpecCodeExist(String specCode) {
 		/*

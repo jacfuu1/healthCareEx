@@ -10,6 +10,7 @@ public interface ISpecializationService {
 	public void removeSpecialization(Long id);
 	public Specialization getOneSpecialization(Long id);
 	public void updateSpecialization(Specialization spec);
+	//ajax validation code
 	public boolean isSpecCodeExist(String specCode);
 
 }
